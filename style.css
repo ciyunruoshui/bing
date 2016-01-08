@@ -1,0 +1,40 @@
+body{
+	background-color: black;
+}
+#bd_img{
+	background-image:url(river.jpg);
+	width: 1300px;
+	height:690px;
+	margin: 0 auto;
+	position: relative;
+}
+.logo{
+	background-image: url(logo.png);
+	width:107px;
+	height: 53px;
+	float: left;
+	margin:-5px 10px 0px 0px;
+}
+.searchbox{
+	position: absolute;
+	top:200px;
+	left: 200px;
+}
+.searchmain{
+	background-color: white;
+	float:left;
+	border:0;
+}
+#searchbutton{
+	background-image: url(search-button.png);
+	border:0;
+	width: 29px;
+	height: 29px;
+}
+#searchtext{
+	border:0;
+	width:400px;
+	height: 40px;
+    font-size: 20px;
+
+}
