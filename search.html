@@ -2,18 +2,26 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta http-equiv="Access-Control-Allow-Origin" content="*">
 	<title>必应搜索</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery-1.9.1/jquery.js"></script>
+	<script type="text/javascript" src="search.js"></script>
 </head>
 <body>
 	<div id="bd_img">
 		<div class="searchbox">
 		    <div class="logo"></div>
-		    <form class="searchmain">
-			  <input type="text" id="searchtext" />
+		    <form class="searchmain" id="searchmain_id" target="_blank" action="https://cn.bing.com/search">
+			  <input type="text" id="searchtext" name="q" />
 			  <input type="submit" id="searchbutton" value="" />
 			</form> 
-		</div>
+		</div> 
+        <div id="suggest" style="display:none">
+        	<ul id="ulli">
+        	</ul>
+        </div>
 	</div>
+
 </body>
 </html>

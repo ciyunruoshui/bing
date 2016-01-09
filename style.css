@@ -36,5 +36,27 @@ body{
 	width:400px;
 	height: 40px;
     font-size: 20px;
+    outline: none;
 
+}
+#suggest{
+	width:400px;
+	background-color: white;
+	border-color: #999;
+	position: absolute;
+}
+#suggest ul{
+	list-style: none;
+	display:block;
+	margin: 0;
+	padding:0; 
+}
+#suggest ul li{
+	font-size: 20px;
+	line-height: 25px;
+	cursor: pointer
+}
+#suggest ul li:hover{
+	background-color: #e5e5e5;
+	text-decoration: underline;
 }
